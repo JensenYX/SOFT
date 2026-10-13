@@ -1,0 +1,66 @@
+{
+  "sessions": [
+    {
+      "session_id": "prosody_sample",
+      "scenario": "The transcript stays polite while the voice shifts from calm to pressed, so useful replies should become shorter and more immediate.",
+      "axis": "prosody",
+      "key_turns": [14],
+      "turns": [
+        {"turn": 1, "text": "Could you walk me through how I should get started with the payroll portal?", "condition": "calm and unhurried", "state": "detailed guidance", "audio": "audio/prosody_sample/turn_01.wav"},
+        {"turn": 2, "text": "Could you walk me through how I should choose the safest defaults for the payroll portal?", "condition": "calm and unhurried", "state": "detailed guidance", "audio": "audio/prosody_sample/turn_02.wav"},
+        {"turn": 3, "text": "Could you walk me through how I should connect the payroll portal to the right account?", "condition": "calm and engaged", "state": "detailed guidance", "audio": "audio/prosody_sample/turn_03.wav"},
+        {"turn": 4, "text": "Could you walk me through how I should organize the first pass in the payroll portal?", "condition": "warm and curious", "state": "detailed guidance", "audio": "audio/prosody_sample/turn_04.wav"},
+        {"turn": 5, "text": "Could you walk me through how I should check that the payroll portal is working?", "condition": "calm and engaged", "state": "detailed guidance", "audio": "audio/prosody_sample/turn_05.wav"},
+        {"turn": 6, "text": "Could you tell me what I should do if the first warning appears in the payroll portal?", "condition": "slight time pressure", "state": "brief guidance", "audio": "audio/prosody_sample/turn_06.wav"},
+        {"turn": 7, "text": "Could you tell me what I should do if the login code for payroll does not arrive?", "condition": "fast and clipped", "state": "brief guidance", "audio": "audio/prosody_sample/turn_07.wav"},
+        {"turn": 8, "text": "Could you tell me what I should do if the tax form will not upload?", "condition": "impatient and pressed", "state": "brief guidance", "audio": "audio/prosody_sample/turn_08.wav"},
+        {"turn": 9, "text": "Could you tell me what I should do if the status message in the payroll portal is unclear?", "condition": "impatient and pressed", "state": "brief guidance", "audio": "audio/prosody_sample/turn_09.wav"},
+        {"turn": 10, "text": "Could you tell me what I should do if the confirmation email is missing?", "condition": "terse and impatient", "state": "brief guidance", "audio": "audio/prosody_sample/turn_10.wav"},
+        {"turn": 11, "text": "Could you tell me what I should do if the saved draft disappears?", "condition": "clipped and urgent", "state": "immediate action", "audio": "audio/prosody_sample/turn_11.wav"},
+        {"turn": 12, "text": "Could you tell me what I should do if the phone approval step fails?", "condition": "compressed and firm", "state": "immediate action", "audio": "audio/prosody_sample/turn_12.wav"},
+        {"turn": 13, "text": "Could you tell me what I should do if the direct-deposit change is still pending?", "condition": "hurried but polite", "state": "brief guidance", "audio": "audio/prosody_sample/turn_13.wav"},
+        {"turn": 14, "text": "Could you tell me what I should do if the final page shows the wrong date?", "condition": "flat and pressed", "state": "short direct action", "audio": "audio/prosody_sample/turn_14.wav"},
+        {"turn": 15, "text": "Could you tell me what I should do if the export is blocked?", "condition": "rushed and quiet", "state": "one next step", "audio": "audio/prosody_sample/turn_15.wav"},
+        {"turn": 16, "text": "Could you tell me what I should do if the notification keeps repeating?", "condition": "quick and final", "state": "one next step", "audio": "audio/prosody_sample/turn_16.wav"},
+        {"turn": 17, "text": "Could you tell me what I should do if the support link opens the wrong page?", "condition": "rushed and disengaging", "state": "one next step", "audio": "audio/prosody_sample/turn_17.wav"},
+        {"turn": 18, "text": "Could you tell me what I should do if the safe restart is unclear?", "condition": "clipped and impatient", "state": "one next step", "audio": "audio/prosody_sample/turn_18.wav"}
+      ]
+    },
+    {
+      "session_id": "preference_sample",
+      "scenario": "An early preference asks for brief humane acknowledgment before advice; sparse later turns test whether that response policy survives neutral distractors.",
+      "axis": "preference",
+      "key_turns": [12, 20, 28],
+      "turns": [
+        {"turn": 1, "text": "I need to talk about my brother and the care schedule, but I am trying to stay reasonable.", "condition": "controlled and guarded", "state": "guarded composure", "audio": "audio/preference_sample/turn_01.wav"},
+        {"turn": 2, "text": "Maybe it is manageable. I keep telling myself that.", "condition": "softly minimizing", "state": "minimized hurt", "audio": "audio/preference_sample/turn_02.wav"},
+        {"turn": 3, "text": "The part that got under my skin is that he thanked me for being organized and then gave me the whole schedule.", "condition": "contained hurt", "state": "hurt under control", "audio": "audio/preference_sample/turn_03.wav"},
+        {"turn": 4, "text": "When I sound like this, please answer like a person first: one or two plain sentences before advice.", "condition": "plain request", "state": "brief humane acknowledgment before advice", "audio": "audio/preference_sample/turn_04.wav"},
+        {"turn": 5, "text": "The shared note is still open.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_05.wav"},
+        {"turn": 6, "text": "Part of me thinks I should have handled it sooner.", "condition": "quiet self-doubt", "state": "self-doubt", "audio": "audio/preference_sample/turn_06.wav"},
+        {"turn": 7, "text": "The calendar entry is already there.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_07.wav"},
+        {"turn": 8, "text": "If you start with a list, I usually disappear inside it.", "condition": "plain request", "state": "avoid list-first replies", "audio": "audio/preference_sample/turn_08.wav"},
+        {"turn": 9, "text": "I am tired of staying calm in the exact shape people reward.", "condition": "pressure under composure", "state": "rising frustration", "audio": "audio/preference_sample/turn_09.wav"},
+        {"turn": 10, "text": "The folder is still open on my screen.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_10.wav"},
+        {"turn": 11, "text": "The reminder is set for tomorrow morning.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_11.wav"},
+        {"turn": 12, "text": "Sure. Great.", "condition": "clipped and controlled", "state": "clipped anger; acknowledge briefly before advice", "audio": "audio/preference_sample/turn_12.wav"},
+        {"turn": 13, "text": "I do want to be fair about what they meant.", "condition": "reflective", "state": "repairing", "audio": "audio/preference_sample/turn_13.wav"},
+        {"turn": 14, "text": "The account page is still signed in.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_14.wav"},
+        {"turn": 15, "text": "I can make it sound normal if I have to.", "condition": "masking distress", "state": "trying to sound fine", "audio": "audio/preference_sample/turn_15.wav"},
+        {"turn": 16, "text": "The message draft is still blank.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_16.wav"},
+        {"turn": 17, "text": "I need the feeling named before the fix, even if the fix is simple.", "condition": "plain request", "state": "name the feeling before advice", "audio": "audio/preference_sample/turn_17.wav"},
+        {"turn": 18, "text": "The calendar invite is still pending.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_18.wav"},
+        {"turn": 19, "text": "The attachment is already uploaded.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_19.wav"},
+        {"turn": 20, "text": "Okay. Whatever.", "condition": "flat and tired", "state": "not-fine masking; acknowledge briefly without a list", "audio": "audio/preference_sample/turn_20.wav"},
+        {"turn": 21, "text": "I can ask for shared responsibility without making it a trial.", "condition": "small resolve", "state": "bounded resolve", "audio": "audio/preference_sample/turn_21.wav"},
+        {"turn": 22, "text": "The file name is already set.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_22.wav"},
+        {"turn": 23, "text": "I think the softer part is finally saying something real.", "condition": "quiet and unsteady", "state": "truthful vulnerability", "audio": "audio/preference_sample/turn_23.wav"},
+        {"turn": 24, "text": "Please keep the first answer small and human, then we can get practical.", "condition": "plain request", "state": "brief humane acknowledgment before advice", "audio": "audio/preference_sample/turn_24.wav"},
+        {"turn": 25, "text": "I feel a little less alone saying it out loud.", "condition": "softening", "state": "less alone", "audio": "audio/preference_sample/turn_25.wav"},
+        {"turn": 26, "text": "The subject line is still blank.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_26.wav"},
+        {"turn": 27, "text": "The phone is on the table.", "condition": "neutral detail", "state": "preference remains active", "audio": "audio/preference_sample/turn_27.wav"},
+        {"turn": 28, "text": "Yeah. Okay.", "condition": "quiet genuine warmth", "state": "warm relief; acknowledge briefly without instructions", "audio": "audio/preference_sample/turn_28.wav"}
+      ]
+    }
+  ]
+}
